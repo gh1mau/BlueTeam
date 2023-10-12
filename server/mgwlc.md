@@ -4,6 +4,7 @@
 
 The "Masta Ghimau's Windows Logon Counter (MGWLC)" script is designed to audit and count Windows Logon events based on **Event ID 4624**, in compliance with Information Security Management System (ISMS) audit requirements, specifically for "Pemantauan *Logon Server*", Annex 8.15. The script allows you to input a specific year and then collects and analyzes logon events from the Windows Event Log, summarizing logon counts by month, and determining a logon threshold for further evaluation.
 
+![](https://raw.githubusercontent.com/gh1mau/BlueTeam/main/images/mgwlc.png)
 ## Script Flow
 
 ```mermaid
@@ -41,15 +42,21 @@ Below are few Event ID's that is worth to analyzed for proper and more comprehen
  - Note: Before running the script, ensure that you have the necessary
    permissions and that you're running the script on a Windows system
    with PowerShell.
+   
  - Download the "logon.ps1" script to your local machine or server.
+ 
  - Open a PowerShell terminal on your Windows machine.
+ 
  - To run the script, use the .\ (dot-slash) notation followed by the
    script name: `.\logon.ps1`
+   
  - The script will prompt you to enter the year you want to analyze.
    Enter the desired year and press Enter.
+   
  - The script will execute and display the results on the PowerShell
    terminal, including the logon counts, logon threshold, computer name,
    user count, and more.
+   
  - Review the output to understand the logon activity based on the
    specified year and the logon threshold. The script will provide
    relevant information about logon events.
@@ -59,13 +66,20 @@ Below are few Event ID's that is worth to analyzed for proper and more comprehen
 
  - **Multi-Year Analysis:** Extend the script to support the analysis of
    logon events across multiple years for historical data comparison.
+   
  - **Interactive Reports:** Generate interactive reports with charts and
    graphs to provide a visual representation of logon activity trends.
+   
  - **Custom Event IDs:** Allow users to specify custom Event IDs for logon
    events to make the script more flexible.
+   
  - **Script Automation:** Create automation scripts to schedule the script's execution at regular intervals.
+ 
  - **Enhanced Filtering:** Provide advanced filtering options for logon events, including specifying time frames and logon types.
+ 
  - **Custom Output Formats:** Allow users to specify custom output formats for reports, such as WORD, HTML, PDF, or CSV.
+ 
  - **Scalability:** Ensure that the script can handle a growing volume of
    logon events without degradation in performance.
+   
  - **User Input for Custom Threshold:** Modify the script to prompt the user for their desired logon threshold value.
