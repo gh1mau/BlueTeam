@@ -2,7 +2,7 @@
 
 ## Script Description:
 
-The "Masta Ghimau's Windows Logon Counter (MGWLC)" script is designed to audit and count Windows Logon events based on **Event ID 4624**, in compliance with Information Security Management System (ISMS) audit requirements, specifically for "Pemantauan *Logon Server*", Annex 8.15. The script allows you to input a specific year and then collects and analyzes logon events from the Windows Event Log, summarizing logon counts by month, and determining a logon threshold for further evaluation.
+The "Masta Ghimau's Windows Logon Counter (MGWLC)" script is designed to audit and count Windows Logon events based on **Event ID 4624**, in compliance with Information Security Management System (ISMS) audit requirements, specifically for "Pemantauan *Logon Server*", **ISO 27001:2022 Annex 8.15**. The script allows you to input a specific year and then collects and analyzes logon events from the Windows Event Log, summarizing logon counts by month, and determining a logon threshold for further evaluation.
 
 ![](https://raw.githubusercontent.com/gh1mau/BlueTeam/main/images/mgwlc.png)
 ## Script Flow
